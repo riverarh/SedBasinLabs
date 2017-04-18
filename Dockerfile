@@ -21,4 +21,4 @@ EXPOSE 8888
 ENTRYPOINT ["/usr/local/bin/tini", "--"]
 
 CMD jupyter notebook --ip=0.0.0.0 --no-browser \
-    --NotebookApp.default_url='StartHere.ipynb'
+    --NotebookApp.default_url='/tree/StartHere.ipynb'
